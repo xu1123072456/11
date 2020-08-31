@@ -1,0 +1,683 @@
+*{
+    margin: 0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.bx{
+    width: 999px;
+    margin: 0 auto;
+}
+.cf::after{
+    display: block;
+    clear: both;
+    content: "";
+}
+.topbox{
+    width: 100%;
+    height: 155px;
+    background-image: url("../imges/bj.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 0;
+    background-color: #f9f9f9;
+    position: relative;
+    background-color: transparent;
+}
+.hui{
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    background:-webkit-linear-gradient(top,black,transparent);
+    opacity: .4;
+}
+.dd{
+    position: relative;
+    z-index: 1;
+}
+.nav{
+    padding: 10px 24px;
+    display: flex;
+    justify-content: space-between;
+}
+.zhu{
+    display: flex;
+    align-items: center;
+}
+.zhu li{
+    float: left;
+    margin-right: 12px;
+    position: relative;
+}
+.zhu li>a{
+    display: block;
+    line-height: 30px;
+    font-size: 14px;
+    color: #fff;
+    display: flex;
+    white-space: nowrap;
+    text-shadow: 0 1px 1px rgba(0,0,0,.3);
+}
+.zhu li a>i{
+    margin-right: 6px;
+    font-size: 18px;
+}
+.zhu li a>.i2{
+    margin-right: 3px;
+}
+.ss{
+    width: 500px;
+    line-height: 30px;
+    box-sizing: border-box;
+    margin: 0 10px;
+    padding-left: 16px;
+    padding-right: 38px;
+    background-color: #fff;
+    border: 1px solid hsla(0,0%,100%,0);
+    border-radius: 2px;
+    position: relative;
+}
+.ss input{
+    width: 100%;
+    height: 34px;
+    border: none;
+    outline: none;
+}
+.ss .sou{
+    width: 48px;
+    height: 36px;
+    background-color: #e7e7e7;
+    text-align: center;
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    border-radius: 2px;
+}
+.ss .sou i{
+    font-size: 16px;
+    line-height: 36px;
+    font-weight: 600;
+    color: rgb(95, 93, 93);
+}
+.rigbox{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-left: 20px;
+}
+.rbox{
+    display: flex;
+}
+.rbox a{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #fff;
+    white-space: nowrap;
+}
+.rbox .a1{
+    margin-right: 14px;
+}
+.rbox a img{
+    display: block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.tou{
+    cursor: pointer;
+    color: #fff;
+    font-size: 14px;
+    display: block;
+    width: 100px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    background: #fb7299;
+    border-radius: 2px;
+    margin-left: 14px;
+}
+.logo{
+    display: block;
+    width: 220px;
+    height: 77px;
+    padding-top: 15px;
+}
+.logo img{
+    display: block;
+    height: 100%;
+}
+.game{
+    display: none;
+    position: absolute;
+    bottom: -270px;
+    left: -50px;
+    width: 466px;
+    height: 256px;
+    box-sizing: border-box;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .4);
+    background: #fff;
+}
+.game>i{
+    color: #fff;
+    font-size: 16px;
+    position: absolute;
+    top: -10px;
+    left: 70px;
+}
+.game .left{
+    margin-top: 10px;
+    float: left;
+}
+.wl{
+    margin:0 10px 10px 10px;
+    position: relative;
+}
+.wl a,.wl a img{
+    display: block;
+}
+.wl a img{
+    border-radius: 4px;
+}
+.wl a span{
+    width: 220px;
+    padding: 0 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: 0 0 4px 4px;
+    font-size: 12px;
+    color: #fff;
+    line-height: 30px;
+    text-shadow: 1px 1px 1px #000;
+    background:-webkit-linear-gradient(bottom,rgb(80, 78, 78),transparent);
+}
+.ming a{
+    display: block;
+    float: left;
+    width: 64px;
+    height: 102px;
+    padding: 6px 12px 0;
+    overflow: hidden;
+}
+.ming a img{
+    display: block;
+    width: 64px;
+    height: 64px;
+    border-radius: 10px;
+}
+.ming a span{
+    display: block;
+    height: 20px;
+    margin: 8px 3px 0px 3px;
+    font-size: 14px;
+    color: #222;
+    overflow: hidden;
+}
+.ming a:hover{
+    background-color: #e5e9ef;
+}
+.game .right{
+    margin-top: 12px;
+    float: left;
+    width: 201px;
+}
+.right img{
+    display: block;
+}
+.lie{
+    height: 200px;
+    padding-top: 5px;
+    padding-left: 6px;
+    box-sizing: border-box;
+    background-image: url("../imges/line.png");
+    background-repeat: no-repeat;
+    background-color: #fff;
+}
+.lie a{
+    display: block;
+    font-size: 12px;
+    padding-left: 16px;
+    line-height: 28px;
+    color: #222;  
+}
+.lie a img{
+    display: block;
+    position: absolute;
+    bottom: -15px;
+    right: -195px;
+}
+.game .san{
+    width: 220px;
+    height: 220px;
+    position: absolute;
+    bottom: 0px;
+    right: -195px;
+}
+.san img{
+    display: block;
+    position: absolute;
+    opacity: 0;
+}
+.zb{
+    display: none;
+    position: absolute;
+    bottom: -280px;
+    left: -50px;
+    width: 504px;
+    min-height: 225px;
+    padding: 20px 0 20px 20px;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .4);
+    background: #fff;
+}
+.zb>i{
+    color: #fff;
+    font-size: 16px;
+    position: absolute;
+    top: -10px;
+    left: 57px;
+}
+.zuo {
+    float: left;
+    width: 254px;
+}
+.zuo h3{
+    font-size: 14px;
+    color: #ea759f;
+}
+.zhubo{
+    font-size: 12px;
+    margin-top: 5px;
+    border-right: 1px solid #eaeaea;
+}
+.zhubo a{
+    display: block;
+    float: left;
+    margin: 10px 17px 0 0;
+    width: 64px;
+    color: #000;
+    position: relative;
+}
+.zhubo a img{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%; 
+}
+.zhubo a p{
+    width: 64px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+    margin: 3px 0 0 0;
+}
+.live{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 64px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    transform: scale(0);
+    transition: all 0.2s;
+    background-color: rgba(0, 0, 0, .4);
+}
+.live span{
+    display: inline-block;
+    width: 12px;
+    height:12px;
+    border-radius: 50%;
+    background-color: #fb7299;
+    margin-right: 2px;
+}
+.zhubo a:hover .live{
+    transform: scale(1);
+}
+.you{
+    float: left;
+    width: 229px;
+    padding-left: 21px;
+}
+.you h3{
+    font-size: 14px;
+    color: #ea759f;
+}
+.wz a{
+    display: block;
+    padding: 10px 21px;
+    margin-left: -21px;
+    width: 208px;
+    height: 80px;
+}
+.wz a img{
+    display: block;
+    border-radius: 3px;
+}
+.cartoon{
+    display: none;
+    position: absolute;
+    bottom: -275px;
+    left: -50px;
+    width: 520px;
+    height: 260px;
+    box-sizing: border-box;
+    background-color: #fff;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+    border-radius: 0 0 4px 4px;
+}
+.cartoon>i{
+    color: #fff;
+    font-size: 16px;
+    position: absolute;
+    top: -10px;
+    left: 55px;
+}
+.cartoonleft{
+    width: 304px;
+    float: left;
+    margin-right: 10px;
+    padding-top: 13px;
+    padding-left: 10px;
+}
+.cartoonleft a{
+    display: block;
+    float: left;
+    padding:7px 8px 10px 8px;
+    border-radius: 2px;
+}
+.cartoonleft a img{
+    display: block;
+    width: 136px;
+    height: 77px;
+    border-radius: 2px;
+}
+.cartoonleft a span{
+    display: block;
+    width: 136px;
+    margin-top: 6px;
+    font-size: 13px;
+    color: #222;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.line{
+    float: left;
+    width: 1px;
+    height: 220px;
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, .1);
+}
+.cartoonright{
+    float: left;
+    padding-top: 20px;
+}
+.cartoonright h3{
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: 100;
+    color: #1c1d1f;
+}
+.list{
+    margin-top: 8px;
+}
+.list a{
+    display: block;
+    width: 195px;
+    padding:0 20px;
+    box-sizing: border-box;
+    font-size: 13px;
+    color: #1c1d1f;
+    line-height: 33px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.list a span{
+    color: #cf9870;
+    margin-right: 10px;
+}
+.cartoon_bank{
+    width: 160px;
+    height: 210px;
+    position: absolute;
+    bottom: 25px;
+    right: -150px;
+    border-radius: 4px;
+}
+.cartoon_bank img{
+    display: none;
+    position: absolute;
+    width: 160px;
+    height: 210px;
+    border-radius: 4px;
+    box-shadow: -2px 5px 15px 0px rgb(180, 179, 179);
+}
+.app{
+    display: none;
+    position: absolute;
+    bottom: -225px;
+    left: -100px;
+    width: 280px;
+    height: 212px;
+    background-image: url("../imges/app-download.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: auto;
+}
+.app>i{
+    color: #fff;
+    font-size: 16px;
+    position: absolute;
+    top: -8px;
+    left: 140px;
+}
+.app p{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    font-size: 14px;
+    color: #212121;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 24px;
+}
+.dll{
+    position: relative;
+}
+.danmu{
+    display: none;
+    position: absolute;
+    left: -145px;
+    bottom: -385px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 3px 6px rgba(0,0,0,.2);
+}
+.danmu>i{
+    color: #fff;
+    font-size: 16px;
+    position: absolute;
+    top: -11px;
+    left: 170px;
+}
+.tanmu{
+    padding: 16px 20px 12px 20px;
+    border-bottom: 1px solid #f4f4f4
+}
+.tanmu>p{
+    font-size: 14px;
+    color: #212121;
+    margin-bottom: 15px;
+}
+.tanmu .pull{
+    width: 320px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    background-image: url("../imges/danmu\ \(1\).png");
+}
+.pull .dan{
+    width: 640px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: dm 4s linear infinite;
+}
+.pull .dan img{
+    display: block;
+    float: left;
+}
+@keyframes dm{
+    0%{
+        left:0px;
+    }
+    50%{
+        left: -160px;
+    }
+    100%{
+        left: -320px;
+    }
+}
+.enter{
+    padding-top: 16px;
+}
+.enter a{
+    display: inline-block;
+    width: 48%;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 2px;
+    transition: .3s ease;
+    border: 1px solid #00a1d6;
+}
+.enter .zhuce{
+    color:#00a1d6;
+    background-color: #fff;
+    margin-right: 4px;
+}
+.enter .dengl{
+    color:#fff;
+    background-color: #00a1d6;
+}
+.enter .dengl:hover{
+    background-color: #1890ff;
+}
+.ziti{
+    margin: 7px 0px;
+    width: 100%;
+    position: relative;
+}
+.ziti p{
+    font-size: 14px;
+    color: #222;
+    display: flex;
+    align-items: center;
+    padding: 10px 25px;
+}
+.ziti p .qq{
+    font-size: 18px;
+    color: #979797;
+    margin-right: 5px;
+}
+.ziti p .jt{
+    font-size: 18px;
+    color: #979797;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    /* margin-left: 171px; */
+}
+.lan{
+    display: none;
+    width: 240px;
+    padding: 8px 0;
+    position: absolute;
+    top: -8px;
+    left: -240px;
+    background: #fff;
+    color: #212121;
+    box-shadow: 0 3px 6px 0 rgba(0,0,0,.2);
+    border-radius: 2px;
+}
+.lan a{
+    display: block;
+    padding: 8px 15px;
+    line-height: 22px;
+    color: #212121;
+    background-color: #fff;
+}
+.lan .jti{
+    color:#1890ff;
+}
+.lan a i{
+    font-size: 16px;
+    margin-left: 130px;
+    font-weight: 600;
+    color:#1890ff;
+}
+.lan a .i4{
+    display: none;
+}
+.tg{
+    position: relative;
+}
+.send{
+    display: none;
+    width: 304px;
+    height: 78px;
+    position: absolute;
+    top:46px;
+    right: -15px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.send a{
+    display: block;
+    float: left;
+    text-align: center;
+    width: 76px;
+    height: 100%;
+    color: #757575;
+    border-radius: 4;
+    padding: 15px 6px 0px 6px;
+    box-sizing: border-box;
+}
+.send .zltg{
+    border-radius: 4px 0 0 4px;
+}
+.send .tggl{
+    border-radius: 0px 4px 4px 0px;
+}
+.send a i{
+    color: #757575;
+    font-size: 20px;
+}
+.send a span{
+    display: block;
+    margin-top: 6px;
+    font-size: 14px;
+    color: #212121;
+}
+.send>i{
+    color: #fff;
+    font-size: 16px;
+    position: absolute;
+    top: -11px;
+    right: 55px;
+}

@@ -1,0 +1,114 @@
+{
+  "id": "2002124",
+  "name": "bilibili",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "8544467",
+      "name": "排行榜",
+      "font_class": "paihangbang",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    },
+    {
+      "icon_id": "11313001",
+      "name": "首页",
+      "font_class": "shouye",
+      "unicode": "e6f2",
+      "unicode_decimal": 59122
+    },
+    {
+      "icon_id": "14406799",
+      "name": "频道",
+      "font_class": "pindao",
+      "unicode": "e756",
+      "unicode_decimal": 59222
+    },
+    {
+      "icon_id": "15459059",
+      "name": "风车",
+      "font_class": "fengche",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "530009",
+      "name": "文章",
+      "font_class": "article",
+      "unicode": "e6af",
+      "unicode_decimal": 59055
+    },
+    {
+      "icon_id": "3880696",
+      "name": "视频",
+      "font_class": "shipin",
+      "unicode": "e91d",
+      "unicode_decimal": 59677
+    },
+    {
+      "icon_id": "8948238",
+      "name": "视频",
+      "font_class": "shipin1",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "10123841",
+      "name": "音频",
+      "font_class": "yinpin",
+      "unicode": "e69a",
+      "unicode_decimal": 59034
+    },
+    {
+      "icon_id": "10052575",
+      "name": "对号",
+      "font_class": "duihao",
+      "unicode": "e69b",
+      "unicode_decimal": 59035
+    },
+    {
+      "icon_id": "2678292",
+      "name": "向右箭头",
+      "font_class": "fanhui-copy-copy",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "9734166",
+      "name": "全球",
+      "font_class": "quanqiu",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "2912466",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e906",
+      "unicode_decimal": 59654
+    },
+    {
+      "icon_id": "9306816",
+      "name": "三角下标（正方形）",
+      "font_class": "arrow-bottom",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "847605",
+      "name": "手机",
+      "font_class": "shouji",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "10454560",
+      "name": "bilibili",
+      "font_class": "bilibili",
+      "unicode": "e65f",
+      "unicode_decimal": 58975
+    }
+  ]
+}
